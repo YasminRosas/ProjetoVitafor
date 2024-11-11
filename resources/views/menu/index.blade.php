@@ -10,7 +10,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3">
         <div class="container">  
             <a class="navbar-brand d-flex align-items-center" href="home">
-                <img src="https://via.placeholder.com/40" class="d-inline-block align-top">
+                <img src="https://rickandmortyapi.com/api/location/23" class="d-inline-block align-top">
             </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,16 +20,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="">Home</a>
+                    <a class="nav-link text-white" href="/home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="personagem.index">Personagem</a>
+                    <a class="nav-link text-white" href="/character">Personagem</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="about.index">Sobre</a>
+                    <a class="nav-link text-white" href="/about">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="login.index">Login</a>
+                    <a class="nav-link text-white" href="/login">Login</a>
                 </li>
             </ul>
         </div>

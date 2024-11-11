@@ -11,4 +11,5 @@ use App\Http\Controllers\AboutController;
 
 Route::get('/home', [HomeController::class, 'index'])->name('home.index');
 Route::get('/about',[AboutController::class, 'index'])->name('about.index');
+Route::get('/character',[AboutController::class, 'index'])->name('character.index');
 
