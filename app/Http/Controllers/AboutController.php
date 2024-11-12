@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\AboutController;
 use Illuminate\Http\Request;
 
 class AboutController extends Controller

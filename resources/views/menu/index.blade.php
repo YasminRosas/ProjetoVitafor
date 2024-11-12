@@ -10,7 +10,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3">
         <div class="container">  
             <a class="navbar-brand d-flex align-items-center" href="home">
-                <img src="https://rickandmortyapi.com/api/location/23" class="d-inline-block align-top">
+                <img src="{{ asset('images/rick.png') }}" style="width: 60px; height: 60px;" class="d-inline-block align-top">
             </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
