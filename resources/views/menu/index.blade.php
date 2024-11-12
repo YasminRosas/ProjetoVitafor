@@ -8,7 +8,7 @@
 <body>
   
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3">
-        <div class="container">  
+    <div class="container">  
             <a class="navbar-brand d-flex align-items-center" href="home">
                 <img src="{{ asset('images/rick.png') }}" style="width: 60px; height: 60px;" class="d-inline-block align-top">
             </a>
@@ -17,7 +17,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                     <a class="nav-link text-white" href="/home">Home</a>
@@ -33,8 +33,7 @@
                 </li>
             </ul>
         </div>
-    </div>  
-    </div>
+    </div>     
 </nav>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

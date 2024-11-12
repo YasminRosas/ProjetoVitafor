@@ -14,7 +14,7 @@
     <div class="container my-5">
         <div class="section-header text-center">
             <h2>Projetos</h2>
-            <p>Um pouco dos meus projetos</p>
+            <p class="text-muted" syle="font-size 0.5rem">e ferramentas</p>
         </div>
         <div class="row text-center">
             <!-- Card 1 -->
@@ -77,10 +77,10 @@
                 tinham metas e atividades internas, diariamente faziam as tarefas.
             </p>
         </div>
-        <div class="col-md-6 mb-4 mb-md-0">
-            <img src="{{ asset('images/prototipoEmFiori.jpeg') }}" class="img-fluid rounded shadow"/>
-        </div>
+    <div class="col-md-6 mb-4 mb-md-0">
+        <img src="{{ asset('images/prototipoEmFiori.jpeg') }}" class="img-fluid rounded shadow"/>
     </div>
+</div>
 
     <div class="container">
     <div class="row align-items-center mb-5">
@@ -96,21 +96,19 @@
             </p>
         </div>
     </div>
-        
-           
-    
 </div>
-            <div class="text-center mb-10">
-                <img src="{{ asset('images/rick.png') }}" style="width: 60px; height: 60px;" >
-                <h4>Projeto Rick and Mortyapi</h4>
-                <p class="text-muted">Feito para teste da empresa Vitafor</p>
-            </div>
+
+        <div class="text-center mb-10">
+            <img src="{{ asset('images/rick.png') }}" style="width: 60px; height: 60px;" >
+            <h4>Projeto Rick and Mortyapi</h4>
+            <p class="text-muted">Feito para teste da empresa Vitafor</p>
+        </div>
 
             
-            <footer class="text-center mt-5">
-                <p class="text-muted" syle="font-size 0.8rem">Projeto Vitafor 2024</p>
-            </footer>
-    </div>
+        <footer class="text-center mt-5">
+            <p class="text-muted" syle="font-size 0.8rem">Projeto Vitafor 2024</p>
+        </footer>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <body>
